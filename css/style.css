@@ -1,0 +1,70 @@
+:root {
+  --dark-gray: hsl(0, 0%, 63%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --very-dark-gray: hsl(0, 0%, 27%);
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 1.2rem;
+  background-color: var(--very-light-gray);
+  font-family: 'Spartan', sans-serif;
+  font-weight: 500;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.header {
+  display: none;
+}
+
+.main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(10, 10vw);
+  grid-template-rows: repeat(10, 10vh);
+}
+
+.carousel {
+  display: flex;
+}
+
+.about {
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 991.98px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  html {
+    font-size: 100%;
+  }
+
+  .attribution {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
