@@ -1,0 +1,24 @@
+{
+  "name": "room-homepage-master",
+  "version": "1.0.0",
+  "description": "![Design preview for the Room homepage coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server",
+    "build": "sass scss/main.scss css/style.css --no-source-map -s compressed",
+    "watch": "sass scss/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pherwerz/room-homepage-master.git"
+  },
+  "author": "pherwerz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pherwerz/room-homepage-master/issues"
+  },
+  "homepage": "https://github.com/Pherwerz/room-homepage-master#readme",
+  "devDependencies": {
+    "sass": "^1.35.2"
+  }
+}
