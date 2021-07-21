@@ -1,0 +1,53 @@
+.carousel {
+  grid-column: 1/7;
+  grid-row: 1/7;
+  overflow: hidden;
+
+  @media screen and (max-width: 767.98px) {
+    grid-column: 1/-1;
+  }
+
+  &-slide {
+    display: flex;
+    width: 300%;
+  }
+
+  &-img {
+    flex: 1;
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    &-1 {
+      background-image: url(../images/desktop-image-hero-1.jpg);
+
+      @media screen and (max-width: 767.98px) {
+        background-image: url(../images/mobile-image-hero-1.jpg);
+      }
+    }
+
+    &-2 {
+      background-image: url(../images/desktop-image-hero-2.jpg);
+
+      @media screen and (max-width: 767.98px) {
+        background-image: url(../images/mobile-image-hero-2.jpg);
+      }
+    }
+
+    &-3 {
+      background-image: url(../images/desktop-image-hero-3.jpg);
+
+      @media screen and (max-width: 767.98px) {
+        background-image: url(../images/mobile-image-hero-3.jpg);
+      }
+    }
+
+    // & img {
+    //   height: 100%;
+    //   width: 100%;
+    //   display: block;
+    // }
+  }
+}

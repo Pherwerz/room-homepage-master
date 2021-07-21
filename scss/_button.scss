@@ -1,0 +1,30 @@
+.btn {
+  grid-column: 7/8;
+  grid-row: 6/7;
+  z-index: 3;
+  height: 10vh;
+
+  @media screen and (max-width: 767.98px) {
+    grid-column: 8/-1;
+  }
+
+  &-container {
+    display: flex;
+    height: 100%;
+  }
+
+  &-btn {
+    flex: 1;
+    background-color: var(--black);
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: var(--very-dark-gray);
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 0 10%;
+  display: flex;
+  align-items: center;
+
+  @media screen and (max-width: 767.98px) {
+    padding: 2rem 10%;
+  }
+
+  &-burger {
+    background-color: transparent;
+    border: none;
+    margin-right: 1rem;
+    display: none;
+    cursor: pointer;
+
+    @media screen and (max-width: 767.98px) {
+      display: block;
+      margin-right: 0;
+    }
+  }
+
+  &-img {
+    margin-right: 2rem;
+
+    @media screen and (max-width: 767.98px) {
+      margin: 0 auto;
+    }
+  }
+
+  &-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 767.98px) {
+      display: none;
+    }
+  }
+}
