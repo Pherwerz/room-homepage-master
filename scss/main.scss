@@ -47,7 +47,14 @@ body {
   line-height: 1.5;
 }
 
+button {
+  &:focus {
+    outline: none;
+  }
+}
+
 @import 'header';
+@import 'nav';
 @import 'carousel';
 @import 'button';
 @import 'text';

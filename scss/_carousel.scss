@@ -5,11 +5,13 @@
 
   @media screen and (max-width: 767.98px) {
     grid-column: 1/-1;
+    grid-row: 1/6;
   }
 
   &-slide {
     display: flex;
     width: 300%;
+    transition: margin-left 0.5s;
   }
 
   &-img {
@@ -19,6 +21,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
+    @media screen and (max-width: 767.98px) {
+      height: 60vh;
+    }
 
     &-1 {
       background-image: url(../images/desktop-image-hero-1.jpg);

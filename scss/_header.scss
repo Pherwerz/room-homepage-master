@@ -3,7 +3,7 @@
   width: 100%;
   top: 0;
   left: 0;
-  padding: 0 10%;
+  padding: 1rem 10%;
   display: flex;
   align-items: center;
 
@@ -39,6 +39,40 @@
 
     @media screen and (max-width: 767.98px) {
       display: none;
+    }
+  }
+
+  &-item {
+    padding: 1rem;
+    position: relative;
+    cursor: pointer;
+
+    &::after {
+      content: '';
+      position: absolute;
+      background-color: var(--white);
+      height: 5%;
+      width: 30%;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.5s;
+    }
+
+    &:hover::after {
+      opacity: 1;
+    }
+  }
+
+  &-link {
+    &:link,
+    &:visited {
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 0.9rem;
+      color: var(--white);
+      text-transform: lowercase;
     }
   }
 }
