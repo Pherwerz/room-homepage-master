@@ -7,7 +7,7 @@
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 64em) {
     padding: 2rem 10%;
   }
 
@@ -18,7 +18,7 @@
     display: none;
     cursor: pointer;
 
-    @media screen and (max-width: 767.98px) {
+    @media screen and (max-width: 64em) {
       display: block;
       margin-right: 0;
     }
@@ -27,7 +27,7 @@
   &-img {
     margin-right: 2rem;
 
-    @media screen and (max-width: 767.98px) {
+    @media screen and (max-width: 64em) {
       margin: 0 auto;
     }
   }
@@ -37,7 +37,7 @@
     display: flex;
     align-items: center;
 
-    @media screen and (max-width: 767.98px) {
+    @media screen and (max-width: 64em) {
       display: none;
     }
   }

@@ -6,7 +6,7 @@
   width: 20rem;
   max-width: 90%;
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 64em) {
     grid-column: 1/-1;
     grid-row: 6/12;
     height: 60vh;

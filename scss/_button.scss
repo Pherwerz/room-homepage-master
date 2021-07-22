@@ -4,7 +4,7 @@
   z-index: 3;
   height: 10vh;
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 64em) {
     grid-column: 8/-1;
     grid-row: 5/6;
   }

@@ -3,7 +3,7 @@
   grid-row: 1/7;
   overflow: hidden;
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 64em) {
     grid-column: 1/-1;
     grid-row: 1/6;
   }
@@ -22,14 +22,14 @@
     background-position: center;
     background-size: cover;
 
-    @media screen and (max-width: 767.98px) {
+    @media screen and (max-width: 64em) {
       height: 60vh;
     }
 
     &-1 {
       background-image: url(../images/desktop-image-hero-1.jpg);
 
-      @media screen and (max-width: 767.98px) {
+      @media screen and (max-width: 64em) {
         background-image: url(../images/mobile-image-hero-1.jpg);
       }
     }
@@ -37,7 +37,7 @@
     &-2 {
       background-image: url(../images/desktop-image-hero-2.jpg);
 
-      @media screen and (max-width: 767.98px) {
+      @media screen and (max-width: 64em) {
         background-image: url(../images/mobile-image-hero-2.jpg);
       }
     }
@@ -45,7 +45,7 @@
     &-3 {
       background-image: url(../images/desktop-image-hero-3.jpg);
 
-      @media screen and (max-width: 767.98px) {
+      @media screen and (max-width: 64em) {
         background-image: url(../images/mobile-image-hero-3.jpg);
       }
     }
